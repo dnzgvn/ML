@@ -1,0 +1,359 @@
+Training fold 1 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.589/100, Performance 0.28933/0.001, Gradient 0.46273/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 22.772/100, Performance 0.032698/0.001, Gradient 0.17877/1e-07, Mu 0.001/10000000000, Validation Checks 3/6
+Epoch 9/100, Time 34.034/100, Performance 0.00029292/0.001, Gradient 0.0034966/1e-07, Mu 1e-07/10000000000, Validation Checks 3/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 1--------
+Fold 1 Confusion Matrix :
+     2     3     0     0     1     1
+     1     6     1     0     1     0
+     0     1     8     0     0     0
+     0     0     1    13     0     0
+     1     0     0     1     6     1
+     1     0     3     0     0     9
+
+Fold 1 Recall :
+    1         2         3         4         5         6
+    0.2857    0.6667    0.8889    0.9286    0.6667    0.6923
+
+Fold 1 Precision :
+    1         2         3         4         5         6
+    0.4000    0.6000    0.6154    0.9286    0.7500    0.8182
+
+Fold 1 F-score :
+    1         2         3         4         5         6
+    0.3333    0.6316    0.7273    0.9286    0.7059    0.7500
+
+Accuracy of fold 1 = 57.377%
+mse of training output = 0.029651mse of testing output = 0.029651           0
+Training fold 2 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.276/100, Performance 0.39097/0.001, Gradient 0.31353/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 19.145/100, Performance 0.0433/0.001, Gradient 0.12892/1e-07, Mu 1e-05/10000000000, Validation Checks 3/6
+Epoch 10/100, Time 36.972/100, Performance 0.00025298/0.001, Gradient 0.0011543/1e-07, Mu 1e-07/10000000000, Validation Checks 2/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 2--------
+Fold 2 Confusion Matrix :
+     7     0     0     1     0     0
+     2     6     0     0     0     1
+     1     0     5     0     1     2
+     0     0     1    13     0     0
+     1     1     0     1     5     0
+     2     0     0     1     2     9
+
+Fold 2 Recall :
+    1         2         3         4         5         6
+    0.8750    0.6667    0.5556    0.9286    0.6250    0.6429
+
+Fold 2 Precision :
+    1         2         3         4         5         6
+    0.5385    0.8571    0.8333    0.8125    0.6250    0.7500
+
+Fold 2 F-score :
+    1         2         3         4         5         6
+    0.6667    0.7500    0.6667    0.8667    0.6250    0.6923
+
+Accuracy of fold 2 = 57.5269%
+mse of training output = mse of testing output = 0.028573
+Training fold 3 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.526/100, Performance 0.36989/0.001, Gradient 0.45043/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 21.84/100, Performance 0.025612/0.001, Gradient 0.064058/1e-07, Mu 0.0001/10000000000, Validation Checks 0/6
+Epoch 8/100, Time 30.583/100, Performance 0.00051737/0.001, Gradient 0.0055817/1e-07, Mu 1e-07/10000000000, Validation Checks 2/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 3--------
+Fold 3 Confusion Matrix :
+     5     0     1     0     2     0
+     2     1     0     3     2     0
+     0     0     8     1     0     0
+     0     2     0    12     0     0
+     0     1     0     0     8     0
+     0     1     1     1     2     9
+
+Fold 3 Recall :
+    1         2         3         4         5         6
+    0.6250    0.1250    0.8889    0.8571    0.8889    0.6429
+
+Fold 3 Precision :
+    1         2         3         4         5         6
+    0.7143    0.2000    0.8000    0.7059    0.5714    1.0000
+
+Fold 3 F-score :
+    1         2         3         4         5         6
+    0.6667    0.1538    0.8421    0.7742    0.6957    0.7826
+
+Accuracy of fold 3 = 56.4516%
+mse of training output = mse of testing output = 
+Training fold 4 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.483/100, Performance 0.29637/0.001, Gradient 0.39831/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 20.134/100, Performance 0.022232/0.001, Gradient 0.078828/1e-07, Mu 1e-05/10000000000, Validation Checks 0/6
+Epoch 8/100, Time 30.598/100, Performance 0.00022294/0.001, Gradient 0.002646/1e-07, Mu 1e-07/10000000000, Validation Checks 3/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 4--------
+Fold 4 Confusion Matrix :
+     4     3     1     0     0     0
+     0     7     1     0     0     1
+     2     1     4     0     0     2
+     0     2     2    10     0     0
+     1     1     0     0     7     0
+     0     2     1     0     1    10
+
+Fold 4 Recall :
+    1         2         3         4         5         6
+    0.5000    0.7778    0.4444    0.7143    0.7778    0.7143
+
+Fold 4 Precision :
+    1         2         3         4         5         6
+    0.5714    0.4375    0.4444    1.0000    0.8750    0.7692
+
+Fold 4 F-score :
+    1         2         3         4         5         6
+    0.5333    0.5600    0.4444    0.8333    0.8235    0.7407
+
+Accuracy of fold 4 = 55.5556%
+mse of training output = mse of testing output = 
+Training fold 5 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.594/100, Performance 0.37502/0.001, Gradient 0.33828/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 20.662/100, Performance 0.064518/0.001, Gradient 0.09718/1e-07, Mu 1e-05/10000000000, Validation Checks 0/6
+Epoch 10/100, Time 43.55/100, Performance 0.011209/0.001, Gradient 0.016639/1e-07, Mu 0.0001/10000000000, Validation Checks 0/6
+Epoch 12/100, Time 49.401/100, Performance 0.00051507/0.001, Gradient 0.0042488/1e-07, Mu 1e-06/10000000000, Validation Checks 0/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 5--------
+Fold 5 Confusion Matrix :
+     2     3     1     0     1     0
+     1     5     1     1     0     0
+     0     0     7     1     0     1
+     0     0     1    11     0     2
+     0     0     2     0     6     0
+     0     1     0     0     0    12
+
+Fold 5 Recall :
+    1         2         3         4         5         6
+    0.2857    0.6250    0.7778    0.7857    0.7500    0.9231
+
+Fold 5 Precision :
+    1         2         3         4         5         6
+    0.6667    0.5556    0.5833    0.8462    0.8571    0.8000
+
+Fold 5 F-score :
+    1         2         3         4         5         6
+    0.4000    0.5882    0.6667    0.8148    0.8000    0.8571
+
+Accuracy of fold 5 = 57.6271%
+mse of training output = mse of testing output = 
+Training fold 6 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.532/100, Performance 0.37371/0.001, Gradient 0.48575/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 18.67/100, Performance 0.038068/0.001, Gradient 0.095882/1e-07, Mu 1e-06/10000000000, Validation Checks 0/6
+Epoch 10/100, Time 41.765/100, Performance 0.011441/0.001, Gradient 0.011209/1e-07, Mu 0.0001/10000000000, Validation Checks 0/6
+Epoch 13/100, Time 50.424/100, Performance 0.00019474/0.001, Gradient 0.003028/1e-07, Mu 1e-07/10000000000, Validation Checks 3/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 6--------
+Fold 6 Confusion Matrix :
+     6     1     0     0     0     0
+     0     4     3     0     0     1
+     0     0     9     0     0     0
+     0     0     0    13     0     2
+     2     1     0     0     5     0
+     0     0     2     0     0    11
+
+Fold 6 Recall :
+    1         2         3         4         5         6
+    0.8571    0.5000    1.0000    0.8667    0.6250    0.8462
+
+Fold 6 Precision :
+    1         2         3         4         5         6
+    0.7500    0.6667    0.6429    1.0000    1.0000    0.7857
+
+Fold 6 F-score :
+    1         2         3         4         5         6
+    0.8000    0.5714    0.7826    0.9286    0.7692    0.8148
+
+Accuracy of fold 6 = 60%
+mse of training output = mse of testing output = 
+Training fold 7 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.492/100, Performance 0.35836/0.001, Gradient 0.54561/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 19.706/100, Performance 0.022468/0.001, Gradient 0.065966/1e-07, Mu 1e-05/10000000000, Validation Checks 1/6
+Epoch 8/100, Time 29.906/100, Performance 0.00091824/0.001, Gradient 0.0044931/1e-07, Mu 1e-07/10000000000, Validation Checks 2/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 7--------
+Fold 7 Confusion Matrix :
+     5     0     0     0     2     0
+     3     4     0     1     0     0
+     0     0     5     0     1     3
+     1     0     1    12     0     1
+     1     1     1     0     4     1
+     0     0     0     0     0    14
+
+Fold 7 Recall :
+    1         2         3         4         5         6
+    0.7143    0.5000    0.5556    0.8000    0.5000    1.0000
+
+Fold 7 Precision :
+    1         2         3         4         5         6
+    0.5000    0.8000    0.7143    0.9231    0.5714    0.7368
+
+Fold 7 F-score :
+    1         2         3         4         5         6
+    0.5882    0.6154    0.6250    0.8571    0.5333    0.8485
+
+Accuracy of fold 7 = 57.377%
+mse of training output = mse of testing output = 
+Training fold 8 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.587/100, Performance 0.26387/0.001, Gradient 0.42177/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 20.412/100, Performance 0.018138/0.001, Gradient 0.072999/1e-07, Mu 1e-05/10000000000, Validation Checks 0/6
+Epoch 7/100, Time 26.074/100, Performance 0.00040416/0.001, Gradient 0.0034099/1e-07, Mu 1e-07/10000000000, Validation Checks 2/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 8--------
+Fold 8 Confusion Matrix :
+     2     1     1     0     3     0
+     1     6     0     1     0     0
+     0     1     3     5     0     0
+     0     1     0    11     0     2
+     1     0     0     0     7     1
+     0     3     1     1     0     9
+
+Fold 8 Recall :
+    1         2         3         4         5         6
+    0.2857    0.7500    0.3333    0.7857    0.7778    0.6429
+
+Fold 8 Precision :
+    1         2         3         4         5         6
+    0.5000    0.5000    0.6000    0.6111    0.7000    0.7500
+
+Fold 8 F-score :
+    1         2         3         4         5         6
+    0.3636    0.6000    0.4286    0.6875    0.7368    0.6923
+
+Accuracy of fold 8 = 54.0984%
+mse of training output = mse of testing output = 
+Training fold 9 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.546/100, Performance 0.50654/0.001, Gradient 0.46764/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 20.238/100, Performance 0.042552/0.001, Gradient 0.082408/1e-07, Mu 1e-05/10000000000, Validation Checks 0/6
+Epoch 10/100, Time 37.753/100, Performance 0.0011374/0.001, Gradient 0.0087271/1e-07, Mu 1e-08/10000000000, Validation Checks 2/6
+Epoch 11/100, Time 40.614/100, Performance 7.3834e-05/0.001, Gradient 0.0010157/1e-07, Mu 1e-09/10000000000, Validation Checks 3/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 9--------
+Fold 9 Confusion Matrix :
+     4     1     1     0     2     0
+     0     7     0     0     1     0
+     0     1     7     1     0     0
+     0     0     1    11     2     0
+     2     1     0     0     5     0
+     0     0     1     1     0    12
+
+Fold 9 Recall :
+    1         2         3         4         5         6
+    0.5000    0.8750    0.7778    0.7857    0.6250    0.8571
+
+Fold 9 Precision :
+    1         2         3         4         5         6
+    0.6667    0.7000    0.7000    0.8462    0.5000    1.0000
+
+Fold 9 F-score :
+    1         2         3         4         5         6
+    0.5714    0.7778    0.7368    0.8148    0.5556    0.9231
+
+Accuracy of fold 9 = 58.4699%
+mse of training output = mse of testing output = 
+Training fold 10 of 10
+ 
+Training with TRAINLM.
+Calculation mode: MATLAB
+Epoch 0/100, Time 1.452/100, Performance 0.46417/0.001, Gradient 0.49053/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 5/100, Time 22.065/100, Performance 0.032532/0.001, Gradient 0.076647/1e-07, Mu 0.001/10000000000, Validation Checks 0/6
+Epoch 10/100, Time 35.462/100, Performance 0.00088776/0.001, Gradient 0.00020624/1e-07, Mu 1e-08/10000000000, Validation Checks 4/6
+Training with TRAINLM completed: Performance goal met.
+ 
+--------FOLD NUMBER 10--------
+Fold 10 Confusion Matrix :
+     6     0     0     0     1     0
+     2     4     1     0     0     2
+     0     0     8     0     0     1
+     0     0     0    15     0     0
+     1     0     1     1     5     0
+     1     0     3     1     0     9
+
+Fold 10 Recall :
+    1         2         3         4         5         6
+    0.8571    0.4444    0.8889    1.0000    0.6250    0.6429
+
+Fold 10 Precision :
+    1         2         3         4         5         6
+    0.6000    1.0000    0.6154    0.8824    0.8333    0.7500
+
+Fold 10 F-score :
+    1         2         3         4         5         6
+    0.7059    0.6154    0.7273    0.9375    0.7143    0.6923
+
+Accuracy of fold 10 = 58.6022%
+mse of training output = mse of testing output = 
+    43    12     5     1    12     1
+    12    50     7     6     4     5
+     3     4    64     8     2     9
+     1     5     7   121     2     7
+    10     6     4     3    58     3
+     4     7    12     5     5   104
+
+    1         2         3         4         5         6
+    0.5811    0.5952    0.7111    0.8462    0.6905    0.7591
+
+    1         2         3         4         5         6
+    0.5890    0.5952    0.6465    0.8403    0.6988    0.8062
+
+    1         2         3         4         5         6
+    0.5850    0.5952    0.6772    0.8432    0.6946    0.7820
+
+Average accuracy between all folds = 57.2985%
+----------------ALL DATA TEST---------------
+MSE 0.036889
+    64     2     4     1     3     0
+     6    71     1     1     0     5
+     4     0    73     1     4     8
+     0     2     3   134     0     4
+     7     0     1     1    72     3
+     3     1     6     2     0   125
+
+    1         2         3         4         5         6
+    0.8649    0.8452    0.8111    0.9371    0.8571    0.9124
+
+    1         2         3         4         5         6
+    0.7619    0.9342    0.8295    0.9571    0.9114    0.8621
+
+    1         2         3         4         5         6
+    0.8101    0.8875    0.8202    0.9470    0.8834    0.8865
+
+Accuracy using all data = 62.6906%
